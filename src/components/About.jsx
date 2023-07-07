@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
 import { TitleDesc } from "./TitleDesc"
-
-export const About = () => {
-  const skills = ["JavaScript","Python","CSS","HTML5","PHP","TypeScript","SQL","NoSQL","XML","React" , "Tailwind", "Next.JS", "SASS", "Bootstrap", "Git", "Firebase", "Node" , "Express", "Selenium", "MySQL", "Amazon Web Services (AWS)", "JSON", "RESTful API", "MongoDB", "Linux", "Vite"]
-  const title = "About"
-  const subtitle ="Gain deeper understanding of my work, capabilities, and current focus within the realm of programming and technology. "
+import { HashLink } from 'react-router-hash-link';
+export const About = (props) => {
+  const about = props.about
+  const title = about.heading
+  const subtitle =about.subheading
+  const skills = about.skills
+  const description = about.description
   return (
     <div id="about" className="min-h-screen flex  md:px-10 px-5 md:py-36 py-24 ">
        <section className="container mx-auto grid grid-cols-2 md:gap-36 gap-24
@@ -17,8 +20,22 @@ export const About = () => {
   {/* Get to know me  */}
   <div className="flex flex-col items-start gap-4">
     <h3 className="text-3xl font-extrabold tracking-normal text-slate-700 ">Get to know me</h3>
-    <p className="text-slate-600 font-medium text-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt itaque labore, architecto vitae atque eaque reprehenderit eum nemo cumque, assumenda, delectus quas officiis! Expedita cumque necessitatibus labore vitae reiciendis vel.</p>
-    <button className="rounded-xl bg-slate-700 px-5 py-3 text-base  font-medium text-slate-50 transition duration-200 hover:bg-slate-600 active:bg-brand-700">button</button>
+    <p className="text-slate-600 font-medium text-lg flex flex-col gap-4">
+      {description.map((paragraph,key)=>  <p key={key}dangerouslySetInnerHTML={{ __html: paragraph }}>
+
+      </p>
+)}
+     
+     <p className="mt-4"></p></p>
+
+
+
+
+
+     <HashLink smooth to="/#contact">
+     <button className="rounded-xl bg-slate-700 px-5 py-3 text-base  font-medium text-slate-50 transition duration-200 hover:bg-slate-600 active:bg-brand-700"> Contact</button>
+     </HashLink>
+    <a href="#contact"></a>
   </div>
        
        

@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom"
 import { TitleDesc } from "./TitleDesc"
+import ProjectComponent from "./ProjectComponent"
 
 export const Project = ({projects}) => {
 
@@ -11,6 +12,9 @@ export const Project = ({projects}) => {
 
 
 <TitleDesc title={projects.heading} subtitle={projects.subheading}/>
+<div className="flex flex-col gap-4 mt-4">
+{projects.projectsList.map((project,key)=><ProjectComponent list={project} key={key}/>)}
+</div>
 
 {/* <TitleDesc title={"Project"}/>
 <Link to={"/project/"+1}>project</Link> */}

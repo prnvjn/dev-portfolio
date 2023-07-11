@@ -35,21 +35,21 @@ skills: [
         description: "Project 1 is a dynamic web application that allows users to...",
         technologies: ["HTML", "CSS", "JavaScript"],
         image: "project1.jpg",
-        url: "https://example.com/project1"
+        url: "https://dummyimage.com/1280x800/1bf2c3/050505.png"
       },
       {
         title: "Project 2",
         description: "Project 2 is a full-stack e-commerce platform built using React, Node.js, and MongoDB...",
         technologies: ["React", "Node.js", "MongoDB"],
         image: "project2.jpg",
-        url: "https://example.com/project2"
+        url: "https://dummyimage.com/1280x800/1bf2c3/050505.png"
       },
       {
         title: "Project 3",
         description: "Project 3 is a responsive web application developed with Angular and integrated with Firebase...",
         technologies: ["Angular", "Firebase"],
         image: "project3.jpg",
-        url: "https://example.com/project3"
+        url: "https://dummyimage.com/1280x800/1bf2c3/050505.png"
       }
     ]}
   };

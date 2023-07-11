@@ -15,7 +15,7 @@ export const HomeHero = () => {
  
 <p className="text-slate-50 text-xl font-medium">Crafting Seamless User Experiences with Frontend Magic</p>
 
-<button className="rounded-xl bg-slate-50 px-5 py-3 text-base  font-medium text-slate-700 transition duration-200 hover:bg-slate-200 active:bg-brand-700"> <HashLink to="/#project" smooth > View my Projects</HashLink>  </button>
+<button className="rounded-xl bg-slate-50 px-5 py-3 text-base  font-medium text-slate-700 transition duration-200 hover:bg-slate-200 active:bg-brand-700"><HashLink smooth to="/#project">Projects</HashLink> </button>
 </div>
 
 

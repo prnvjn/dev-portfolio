@@ -7,7 +7,7 @@ export const Project = ({projects}) => {
 
 
   return (
-    <div id="project" className="min-h-screen flex  md:px-10 px-5 md:py-36 py-24">
+    <div id="project" className="min-h-screen flex  md:px-10 px-5 md:py-36 py-24 shadow-lg">
     <section className="container mx-auto">
 
 

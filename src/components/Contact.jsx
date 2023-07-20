@@ -7,7 +7,7 @@ const Contact = () => {
     rounded-md shadow-md">
 <TitleDesc title={"Contact"} subtitle={"Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"}/>
 
-<form name="contact" data-netlify="true" method="post" className="flex flex-col gap-8  lg:w-1/2 p-8 mx-auto justify-center">
+<form name="contact"  method="post"  className="flex flex-col gap-8  lg:w-1/2 p-8 mx-auto justify-center">
 <input type="hidden"  name="form-name" value="contact" />
   <input className="p-4 rounded-lg bg-slate-700 placeholder:text-slate-300 text-slate-50"  placeholder="What's your name 🤨?" type="text" name="name" required/>
   <input className="p-4 rounded-lg bg-slate-700 placeholder:text-slate-300 text-slate-50" placeholder="What's your email address?" type="email" name="email" required />

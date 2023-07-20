@@ -25,31 +25,35 @@ skills: [
    projects:
    { 
     heading:"Projects",
-    subheading:"Here you will find a list of personal projects",
+    subheading:"Here you will find a list of my personal projects",
 
     projectsList : [
        
 
       {
-        title: "Project 1",
-        description: "Project 1 is a dynamic web application that allows users to...",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        image: "project1.jpg",
-        url: "https://dummyimage.com/1280x800/1bf2c3/050505.png"
+        title: "Creator Verse",
+        description: "Creator Verse is a React app that lets users discover, follow, and manage their favorite content creators effortlessly. It supports CRUD operations, allowing users to add, edit, and delete creators. The app provides key information, such as names, URLs, descriptions, and image links, to keep users connected with their digital idols.",
+        technologies: ["React", "Vite", "JavaScript","Supa Base","SQL"],
+        image: "../src/assets/porfolioImages/creatorverse.webp",
+        preview: "https://dummyimage.com/1280x800/1bf2c3/050505.webp",
+        sourceCode:""
+
       },
       {
-        title: "Project 2",
-        description: "Project 2 is a full-stack e-commerce platform built using React, Node.js, and MongoDB...",
-        technologies: ["React", "Node.js", "MongoDB"],
-        image: "project2.jpg",
-        url: "https://dummyimage.com/1280x800/1bf2c3/050505.png"
+        title: "Portfolio Tracker",
+        description: "The \"Portfolio Tracker\" is a user-friendly web application that enables users to input historical asset portfolio data and visualize its current worth based on the specified start date, initial balance, and allocation.",
+        technologies: ["React", "Vite","Tailwind"],
+        image: "../src/assets/porfolioImages/assetTracker.webp",
+        preview: "https://dummyimage.com/1280x800/1bf2c3/050505.webp",
+        sourceCode:""
       },
       {
         title: "Project 3",
-        description: "Project 3 is a responsive web application developed with Angular and integrated with Firebase...",
-        technologies: ["Angular", "Firebase"],
-        image: "project3.jpg",
-        url: "https://dummyimage.com/1280x800/1bf2c3/050505.png"
+        description: "A service that tells the user what types of food trucks might be found near a specific location on a map. Based on data provided by San Francisco Government",
+        technologies: ["React", "Vite","Tailwind"],
+        image: "../src/assets/porfolioImages/FoodTruckInSF.webp",
+        preview: "https://dummyimage.com/1280x800/1bf2c3/050505.png",
+        sourceCode:""
       }
     ]}
   };

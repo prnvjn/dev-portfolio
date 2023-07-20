@@ -1,22 +1,22 @@
 import { HashLink } from 'react-router-hash-link';
-
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
 import { Menu } from '@headlessui/react';
 export const Header = () => {
-
   return (
     <header className='fixed bg-slate-50 md:px-10 px-5 py-5 w-screen z-40 shadow-lg '>
     <nav className='flex justify-between items-center relative'>
       <div className='glitch-wrapper'>
-      <h1 className='glitch text-3xl glitch after:content-[attr(data-header)] before:content-[attr(data-header)] text-slate-600' data-header="Pranav">Pranav</h1>
+      <HashLink smooth to="/#home">
+        <h1 className='text-3xl glitch after:content-[attr(data-header)] before:content-[attr(data-header)] text-slate-600' data-header="Pranav">Pranav</h1>
+      </HashLink>
       </div>
         
     <ul className=' hidden md:flex gap-5 font-medium text-lg'>
-        <li><HashLink smooth to="/#home">Home</HashLink></li>
+      
         <li><HashLink smooth to="/#about">About</HashLink></li>
         <li><HashLink smooth to="/#project">Project</HashLink></li>
-        <li><HashLink smooth to="/#contact">Contact</HashLink></li>
-
+        <li ><HashLink smooth to="/#contact">Contact</HashLink></li>
+<li><a href="" target="_blank" rel="noopener noreferrer">Resumé</a> </li>
        
       </ul>
       <div className="flex  md:hidden">

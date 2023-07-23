@@ -1,6 +1,7 @@
 
 import { HashLink } from "react-router-hash-link"
 export const HomeHero = () => {
+  const text = "I'm Pranav"
   return (
     <section id="home" className="min-h-screen flex items-center md:px-10 px-5 py-5 gradient" >
     
@@ -8,7 +9,7 @@ export const HomeHero = () => {
   <div className="text-center"> 
   <code className="font-mono text-lime-500 text-xl font-medium">console.log(&ldquo;Hey! 👋🏼&rdquo;)</code>
       <div className=" glitch-wrapper">
-          <div className="glitch after:content-[attr(data-glitch)] before:content-[attr(data-glitch)]" data-glitch ="I&apos;m Pranav">I&apos;m Pranav</div>
+          <div className="glitch after:content-[attr(data-glitch)] before:content-[attr(data-glitch)]" data-glitch ={text}>{text}</div>
 
       </div>
   </div>

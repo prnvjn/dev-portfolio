@@ -1,12 +1,12 @@
 const data = {
     header: {
-        name: "John Doe",
-        title: "Software Engineer",
-        email: "john.doe@example.com",
-        phone: "+1 123-456-7890",
-        website: "https://www.johndoe.com",
-        linkedin: "https://www.linkedin.com/in/johndoe",
-        github: "https://github.com/johndoe"
+        name: "Pranav",
+        title: "I'm Pranav",
+        email: "prnvjn@icloud.com",
+        
+        resume: "https://pranavdev.s3.amazonaws.com/resume.pdf",
+        linkedin: " https://www.linkedin.com/in/pranavvj/",
+        github: "https://github.com/prnvjn"
       },
 
     about: {
@@ -35,8 +35,8 @@ skills: [
         description: "Creator Verse is a React app that lets users discover, follow, and manage their favorite content creators effortlessly. It supports CRUD operations, allowing users to add, edit, and delete creators. The app provides key information, such as names, URLs, descriptions, and image links, to keep users connected with their digital idols.",
         technologies: ["React", "Vite", "JavaScript","Supa Base","SQL"],
         image: "https://pranavdev.s3.amazonaws.com/creatorverse.webp",
-        preview: "https://dummyimage.com/1280x800/1bf2c3/050505.webp",
-        sourceCode:""
+        preview: "https://creatorverse.netlify.app/",
+        sourceCode:"https://github.com/prnvjn/codepath-web103-prework"
 
       },
       {
@@ -44,16 +44,16 @@ skills: [
         description: "The \"Portfolio Tracker\" is a user-friendly web application that enables users to input historical asset portfolio data and visualize its current worth based on the specified start date, initial balance, and allocation.",
         technologies: ["React", "Vite","Tailwind"],
         image: "https://pranavdev.s3.amazonaws.com/assetTracker.webp",
-        preview: "https://dummyimage.com/1280x800/1bf2c3/050505.webp",
-        sourceCode:""
+        preview: "https://snazzy-mermaid-ca10eb.netlify.app",
+        sourceCode:"https://github.com/prnvjn/asset-calculator"
       },
       {
         title: "Food Truck Locator",
         description: "A service that tells the user what types of food trucks might be found near a specific location on a map. Based on data provided by San Francisco Government",
         technologies: ["React", "Vite","Tailwind"],
         image: "https://pranavdev.s3.amazonaws.com/FoodTruckInSF.webp",
-        preview: "https://dummyimage.com/1280x800/1bf2c3/050505.png",
-        sourceCode:""
+        preview: "https://foodtruckinsf.netlify.app",
+        sourceCode:"https://github.com/prnvjn/food-truck-app"
       }
     ]}
   };

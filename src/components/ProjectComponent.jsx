@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
 const ProjectComponent = ({list,key}) => {
-const changeColor =(e)=>{
- 
-}
+
   return (
     <div key={key} className=" mx-auto grid grid-cols-2 md:gap-16 gap-8 mt-24 items-center group" >  
         <img className="col-span-2 lg:col-span-1 w-full rounded-xl  group-hover:rounded-3xl ease-in duration-100" src={list.image} alt="" />
@@ -13,8 +11,8 @@ const changeColor =(e)=>{
      <p className="flex flex-wrap gap-4 justify-center lg:justify-start">{ list.technologies.map((technology)=>< span className="bg-slate-50 p-4 rounded-xl text-base font-medium shadow" key={technology} >{technology}</span>)  }</p>
 
      <div className="flex flex-wrap gap-4 justify-center lg:justify-start ">
-<button className="rounded-xl bg-slate-700 px-9 py-3 text-base  font-medium text-slate-50 transition duration-200 hover:bg-slate-500 active:bg-brand-700">Preview</button>
-<button className="rounded-xl border-slate-700 border-4 px-9 py-3 text-base  font-medium text-slate-700 transition duration-200 hover:bg-slate-100 active:bg-brand-700">Code</button>
+<a href={list.preview} target="_blank"><button className="rounded-xl bg-slate-700 px-9 py-3 text-base  font-medium text-slate-50 transition duration-200 hover:bg-slate-500 active:bg-brand-700">Preview</button></a>
+<a href={list.sourceCode} target="_blank"><button className="rounded-xl border-slate-700 border-4 px-9 py-3 text-base  font-medium text-slate-700 transition duration-200 hover:bg-slate-100 active:bg-brand-700">Code</button></a>
 </div>
         </div>
 

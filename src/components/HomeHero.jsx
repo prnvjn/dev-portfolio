@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link"
 export const HomeHero = () => {
   const text = "I'm Pranav"
   return (
-    <section id="home" className="min-h-screen flex items-center md:px-10 px-5 py-5 gradient" >
+    <section id="home" className="min-h-screen flex items-center md:px-10 px-5 py-5 gradient shadow-xl" >
     
 <div className="container mx-auto flex flex-col items-center gap-8">
   <div className="text-center"> 

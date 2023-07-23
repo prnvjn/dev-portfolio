@@ -4,7 +4,7 @@ import "./style/hero.css"
 import {  useRoutes } from "react-router-dom";
 
 import { Header } from './components/Header';
-
+import data from "./data"
 import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { ProjectPage } from './pages/ProjectPage';
@@ -27,9 +27,9 @@ function App() {
   return (
 
     <>
-    <Header></Header>
+    <Header headerData={data.header}></Header>
       {element}
-   <Footer></Footer>
+   <Footer footerData={data.header}></Footer>
     </>
   )
 }

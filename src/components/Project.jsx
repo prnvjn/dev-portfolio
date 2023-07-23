@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import { TitleDesc } from "./TitleDesc"
 import ProjectComponent from "./ProjectComponent"
 
@@ -7,7 +7,7 @@ export const Project = ({projects}) => {
 
 
   return (
-    <div id="project" className="min-h-screen flex  md:px-10 px-5 md:py-36 py-24 shadow-lg">
+    <div id="project" className="min-h-screen flex  md:px-10 px-5 md:py-36 py-24 ">
     <section className="container mx-auto">
 
 

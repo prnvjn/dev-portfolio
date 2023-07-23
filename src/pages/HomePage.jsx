@@ -8,8 +8,8 @@ import Socials from '../components/Socials';
 export const HomePage = () => {
   return (
     <div className='relative'>
-    <Socials/>  
-    <HomeHero></HomeHero>
+    <Socials socials={data.header}/>  
+    <HomeHero ></HomeHero>
 
     <About about={data.about} ></About>
    <Project projects={data.projects} ></Project>

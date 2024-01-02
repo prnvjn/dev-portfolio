@@ -4,7 +4,7 @@ const data = {
         title: "I'm Pranav",
         email: "prnvjn@icloud.com",
         
-        resume: "https://pranavdev.s3.amazonaws.com/resume.pdf",
+        resume: "https://drive.google.com/file/d/1Xwf0WihaUkvpsV5izjoDMDwbQCZhTgJa/view?usp=sharing",
         linkedin: " https://www.linkedin.com/in/pranavvj/",
         github: "https://github.com/prnvjn"
       },
@@ -34,7 +34,7 @@ skills: [
         title: "Creator Verse",
         description: "Creator Verse is a React app that lets users discover, follow, and manage their favorite content creators effortlessly. It supports CRUD operations, allowing users to add, edit, and delete creators. The app provides key information, such as names, URLs, descriptions, and image links, to keep users connected with their digital idols.",
         technologies: ["React", "Vite", "JavaScript","Supa Base","SQL"],
-        image: "https://pranavdev.s3.amazonaws.com/creatorverse.webp",
+        image: "https://raw.githubusercontent.com/prnvjn/dev-portfolio/main/src/images/creatorverse.webp",
         preview: "https://creatorverse.netlify.app/",
         sourceCode:"https://github.com/prnvjn/codepath-web103-prework"
 
@@ -43,7 +43,7 @@ skills: [
         title: "Portfolio Tracker",
         description: "The \"Portfolio Tracker\" is a user-friendly web application that enables users to input historical asset portfolio data and visualize its current worth based on the specified start date, initial balance, and allocation.",
         technologies: ["React", "Vite","Tailwind"],
-        image: "https://pranavdev.s3.amazonaws.com/assetTracker.webp",
+        image: "https://raw.githubusercontent.com/prnvjn/dev-portfolio/main/src/images/assetTracker.webp",
         preview: "https://snazzy-mermaid-ca10eb.netlify.app",
         sourceCode:"https://github.com/prnvjn/asset-calculator"
       },
@@ -51,7 +51,7 @@ skills: [
         title: "Food Truck Locator",
         description: "A service that tells the user what types of food trucks might be found near a specific location on a map. Based on data provided by San Francisco Government",
         technologies: ["React", "Vite","Tailwind"],
-        image: "https://pranavdev.s3.amazonaws.com/FoodTruckInSF.webp",
+        image: "https://raw.githubusercontent.com/prnvjn/dev-portfolio/main/src/images/FoodTruckInSF.webp",
         preview: "https://foodtruckinsf.netlify.app",
         sourceCode:"https://github.com/prnvjn/food-truck-app"
       }
